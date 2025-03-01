@@ -1,0 +1,47 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+#pravoagolnik1{
+    border: 1px solid darkgreen;
+    background-color: beige;
+    text-align: center;
+    padding: 20px;
+}
+#pravoagolnik2{
+    border: 1px dotted lightcoral;
+    background-color: green;
+    text-align: center;
+    color: white;
+    padding: 10px 30px;
+}
+#pravoagolnik3{
+    border: 1px dashed lightblue;
+    background-color: blueviolet;
+    text-align: left;
+    padding: 10px 30px 50px 70px;
+} 
+#kopce{
+    margin-top: 50px;
+    text-transform: uppercase;
+    background-color: aqua;
+    color: blue;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#kopce:hover {
+    background-color: crimson
+}
+@import
+url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
+  box-sizing: border-box;
+}
